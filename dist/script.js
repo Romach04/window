@@ -276,7 +276,7 @@ const forms = state => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 const images = () => {
-  const imgPopup = document.querySelector('div'),
+  const imgPopup = document.createElement('div'),
     workSection = document.querySelector('.works'),
     bigImage = document.createElement('img');
   imgPopup.classList.add('popup');
